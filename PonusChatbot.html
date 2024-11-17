@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponus</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #121059;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Quicksand', sans-serif;
+        }
+        .container {
+            width: 550px;
+            height: 582px;
+            background-color: #121059;
+            position: relative;
+        }
+        .background-shape {
+            position: absolute;
+            border-radius: 9999px;
+        }
+        .background-shape.pink {
+            width: 367px;
+            height: 361px;
+            left: 0;
+            top: 0;
+            background: radial-gradient(circle, rgba(255, 102, 196, 0.7) 0%, rgba(18, 16, 89, 0) 100%);
+        }
+        .background-shape.blue {
+            width: 367px;
+            height: 361px;
+            left: 198px;
+            top: 238px;
+            background: radial-gradient(circle, rgba(23, 13, 242, 0.6) 0%, rgba(18, 16, 89, 0) 100%);
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            color: #F9F9F3;
+            font-size: 8px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 600;
+            padding: 10px 0;
+        }
+        .title {
+            position: absolute;
+            left: 220px;
+            top: 52px;
+            width: 110px;
+            text-align: center;
+            color: #F9F9F3;
+            font-size: 25px;
+            font-family: 'Syne', sans-serif;
+            font-weight: 700;
+        }
+        .subtitle {
+            position: absolute;
+            left: 220px;
+            top: 82px;
+            color: #F9F9F3;
+            font-size: 15px;
+            font-family: 'Syne', sans-serif;
+            font-weight: 400;
+        }
+        .chatbot-container {
+            width: 100%;
+            position: absolute;
+            top: 120px;
+            bottom: 50px;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="width: 565px; height: 599px; left: 92px; top: -114px; position: absolute;">
+            <div class="background-shape pink"></div>
+            <div class="background-shape blue"></div>
+        </div>
+        <div class="title">PONUS</div>
+        <div class="subtitle">Tu coach laboral</div>
+        <div class="chatbot-container">
+            <iframe src="https://copilotstudio.microsoft.com/environments/Default-a6f3d391-63cf-42a0-b0e1-92458d0045d3/bots/Default_ponus/webchat?__version__=2&backgroundColor=transparent&bubbleBackground=white&bubbleTextColor=black&hideAvatar=true&hideTitle=true"></iframe>
+        </div>
+        <div class="footer">Powered by LABORALL</div>
+    </div>
+</body>
+</html>
+
